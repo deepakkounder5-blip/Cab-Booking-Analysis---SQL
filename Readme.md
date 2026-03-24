@@ -5,6 +5,7 @@
 This project involves the design and implementation of a relational database for a Cab Booking System. 
 It includes the complete database schema (DDL), sample data insertion (DML), and a variety of complex SQL queries designed to extract business insights regarding customer behavior, driver performance, and revenue trends.
 
+
 🗃️ Database Schema
 
 The project consists of six primary tables:
@@ -20,6 +21,7 @@ Bookings: Tracks pickup/dropoff locations and booking statuses (Completed, Cance
 TripDetails: Records trip specific data such as distance (KM) and fare.
 
 Feedback: Captures customer ratings, comments, and cancellation reasons.
+
 
 📊 Key Business Queries & Insights
 
@@ -37,11 +39,13 @@ Cancellation Analysis: Provides a breakdown of reasons for trip cancellations.
 
 Trip Categorization: Segments trips into 'Short', 'Medium', and 'Long' distances to analyze revenue by category.
 
+
 🛠️ Technologies Used
 
 Database: MySQL / PostgreSQL (Relational Database Management System).
 
 Language: SQL (Structured Query Language).
+
 
 🚀 How to Use
 
@@ -52,6 +56,7 @@ Create Tables: Run the DDL scripts to establish the schema.
 Insert Data: Run the provided INSERT statements to populate the tables with sample records.
 
 Run Analysis: Execute the analytical queries at the end of the script to generate reports.
+
 
 📈 Sample Results
 
